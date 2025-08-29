@@ -53,7 +53,7 @@ def run_bot():
                 if app_state != 'running':
                     break  # Stop typing if paused or stopped
                 pyautogui.write(char)
-                time.sleep(0.05)
+                time.sleep(1)
             pyautogui.press('enter')
             time.sleep(2)
         else:
